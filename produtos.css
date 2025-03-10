@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Gordao";
+    src: url(/fonte_oficial/aAnotherTag.otf);
+}
+header {
+    font-family: Gordao;
+    color: white;
+    letter-spacing: 3px;
+    padding: 30px;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+header a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+nav {
+    text-align: center;
+    margin-top: 3px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Gordao;
+    letter-spacing: 3px;
+    padding: 0 12px;
+    font-size: 25px;
+
+}
+nav a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+}
+body {
+    background-color: black;
+}
+.h1b {
+    color: white;
+    font-family: "Titan One", serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 40px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+.bloco-container {
+    width: 330px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bloco img {
+    width: 200px;
+    height: auto;
+}
+.conteudo-bloco h3 {
+    font-family: Titan One;
+    margin-bottom: 8px;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.conteudo-bloco .botao {
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: Gordao;
+    display: inline-block;
+    padding: 8px 11px 10px 10px;
+}
+.conteudo-bloco .botao:hover {
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 4px;
+}
+footer {
+    margin-top: 60px;
+    padding: 40px;
+    font-family: Titan One;
+    background-color: rgb(10, 10, 10);
+    bottom: 0;
+    position: relative;
+    color: rgb(170, 169, 169);
+    text-align: center;
+}
+color2 {
+    background-image: linear-gradient(to right bottom, rgb(53, 3, 53), rgb(255, 35, 6), orange);
+    -webkit-text-fill-color: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
